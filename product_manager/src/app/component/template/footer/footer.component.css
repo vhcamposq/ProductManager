@@ -1,0 +1,35 @@
+.custom-footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto */
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Para garantir que o rodapé fique sobre outros elementos */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #f0f0f0; /* Cor do link ao passar o mouse */
+  }
+  

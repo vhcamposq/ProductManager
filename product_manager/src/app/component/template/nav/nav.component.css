@@ -1,0 +1,36 @@
+.sidenav {
+  height: 100%;
+  width: 250px; /* Largura da sidebar */
+  position: fixed;
+  top: 60px; /* Começa abaixo da header */
+  left: 0;
+  background-color: #333;
+  color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 900; /* Menor que a header para não sobrepor */
+}
+
+.sidenav-header {
+  padding: 15px;
+  text-align: center;
+}
+
+.sidenav-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.sidenav-nav a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.sidenav-nav a:hover {
+  background-color: #575757; /* Cor de fundo ao passar o mouse */
+}
